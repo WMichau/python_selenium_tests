@@ -1,4 +1,3 @@
-# Project Name
 Examples of unit tests in python
 
 ## Table of contents
