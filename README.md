@@ -13,7 +13,7 @@ Three components have been tested:
 * Searching Flight with round trip
 
 ## Technologies
-* Python
+* Python 3.8.0
 * Selenium WebDriver
 * Unittest Framework
 
