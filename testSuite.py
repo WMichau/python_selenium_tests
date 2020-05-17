@@ -1,0 +1,12 @@
+import unittest
+from test_SignUp import SignUp_Test
+from test_ValidationOfFieldsForSignUpForm import ValidationOfFieldsForSignUpForm_Test
+from test_RoundTripFlightSearching import RoundTripFlightSearching_Test
+
+SignUp_Test = unittest.TestLoader().loadTestsFromTestCase(SignUp_Test)
+ValidationOfFieldsForSignUpForm_Test = unittest.TestLoader().loadTestsFromTestCase(ValidationOfFieldsForSignUpForm_Test)
+RoundTripFlightSearching_Test = unittest.TestLoader().loadTestsFromTestCase(RoundTripFlightSearching_Test)
+
+test_suite = unittest.TestSuite([SignUp_Test, ValidationOfFieldsForSignUpForm_Test, RoundTripFlightSearching_Test])
+
+unittest.TextTestRunner(verbosity=2).run(test_suite)
